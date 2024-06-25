@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" class="has-support">
+<head>
+  <meta charset="UTF-8">
+  <title>Portraits</title>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<ul class="results">
+</li>
+<li class="result">
+  <div class="image-container">
+  <img src="https://uploads3.wikiart.org/images/vincent-van-gogh/woman-with-baby-on-her-lap-half-length-1883.jpg" width="500" height="500" alt="">
+  <div class="text-box">
+    <p>Woman with Baby on her Lap, Half-Length 1883</p>
+  </div>
+</div>
+</li>
+  <li class="result">
+    <div class="image-container">
+    <img src="https://uploads4.wikiart.org/images/vincent-van-gogh/head-of-a-peasant-with-a-pipe-1885(1).jpg!HD.jpg" width="500" height="500" alt="">
+    <div class="text-box">
+      <p>Head of a Peasant with a Pipe 1885</p>
+    </div>
+  </li>
+  <li class="result">
+    <div class="image-container">
+    <img src="https://uploads7.wikiart.org/images/vincent-van-gogh/man-with-bowler-1885.jpg" width="500" height="500" alt="">
+    <div class="text-box">
+      <p>Man with Bowler 1885</p>
+    </div>
+  </li>
+  <li class="result">
+    <div class="image-container">
+    <img src="https://uploads3.wikiart.org/images/vincent-van-gogh/portrait-of-a-man-with-a-skull-cap.jpg" width="500" height="500" alt="">
+    <div class="text-box">
+      <p>Portrait of a Man with a Skull Cap 1887</p>
+    </div>
+  </li>
+  <li class="result">
+    <div class="image-container">
+   <img src="https://uploads2.wikiart.org/images/vincent-van-gogh/portrait-of-a-woman-madame-tanguy.jpg" width="500" height="500" >
+   <div class="text-box">
+    <p>Madame Tanguy 1887</p>
+  </div>
+</li>
+  <li class="result">
+    <div class="image-container">
+    <img src="https://uploads0.wikiart.org/images/vincent-van-gogh/portrait-of-alexander-reid-1887.jpg" width="500" height="500" >
+    <div class="text-box">
+      <p>Portrait of Alexander Reid 1887</p>
+    </div>
+  </li>
+  
+  <li class="result">
+    <div class="image-container">
+    <img src="https://uploads6.wikiart.org/images/vincent-van-gogh/portrait-of-eugene-boch-1888.jpg" width="500" height="500">
+    <div class="text-box">
+      <p>Portrait of Eugene Boch 1888</p>
+    </div>
+  </div>
+  </li>
+  <li class="result">
+    <div class="image-container">
+    <img src="https://uploads7.wikiart.org/images/vincent-van-gogh/p%C3%A8re-tanguy.jpg" width="500" height="500" >
+    <div class="text-box">
+      <p>Père Tanguy 1888</p>
+    </div>
+  </div>
+</li>
+   
+  </li>
+  <li class="result">
+    <div class="image-container">
+    <img src="https://uploads3.wikiart.org/images/vincent-van-gogh/mother-roulin-with-her-baby-1888-1.jpg" width="500" height="500" >
+    <div class="text-box">
+      <p>Mother Roulin with Her Baby 1888</p>
+    </div>
+  </li>
+  <li class="result">
+    <div class="image-container">
+  <img src="https://uploads3.wikiart.org/images/vincent-van-gogh/portrait-of-madame-ginoux-l-arlesienne-1888.jpg" width="500" height="500" >
+  <div class="text-box">
+    <p>Portrait of Madame Ginoux (L'Arlesienne) 1888</p>
+  </div>
+</li>
+  <li class="result">
+    <div class="image-container">
+   <img src="https://uploads8.wikiart.org/images/vincent-van-gogh/zouave-1888(1).jpg!HD.jpg" width="500" height="500">
+   <div class="text-box">
+    <p>Zouave 1888</p>
+  </div>
+</li>
+  <li class="result">
+    <div class="image-container">
+   <img src="https://uploads1.wikiart.org/images/vincent-van-gogh/self-portrait-with-pallette-1889.jpg" width="500" height="500" >
+   <div class="text-box">
+    <p>Self Portrait with Pallette 1889</p>
+  </div>
+</li>
+</ul>
+<script>
+  const lis = document.querySelectorAll('li');
+
+  lis.forEach((li, index) => {
+    li.addEventListener('mouseover', () => {
+      const colors = ['#f0efeb', '#ead4c2','#FAF0E6', '#d1e7e2',  '#f5e1da', '#FFDAB9', ' #D1F0FF', '#FFFAF0', ' #e6e2d3', '#f4e1d2','#dbe9ed', '#CCE5FF' ]; 
+      document.body.style.backgroundColor = colors[index];
+    });
+
+    li.addEventListener('mouseout', () => {
+      document.body.style.backgroundColor = ''; 
+    });
+  });
+</script>
+  
+</body>
+</html>

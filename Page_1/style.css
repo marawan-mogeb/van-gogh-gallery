@@ -1,0 +1,110 @@
+body {
+  background: #020520;
+  perspective: 500px;
+  overflow-x: hidden;
+}
+
+figure {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+figure:nth-child(1) img {
+  transform: scale(0.6) rotate(-12.5deg);
+}
+figure:nth-child(2) img {
+  transform: scale(0.6) rotate(-9.7222222222deg);
+}
+figure:nth-child(3) img {
+  transform: scale(0.6) rotate(-6.9444444444deg);
+}
+figure:nth-child(4) img {
+  transform: scale(0.6) rotate(-4.1666666667deg);
+}
+figure:nth-child(5) img {
+  transform: scale(0.6) rotate(-1.3888888889deg);
+}
+figure:nth-child(6) img {
+  transform: scale(0.6) rotate(1.3888888889deg);
+}
+figure:nth-child(7) img {
+  transform: scale(0.6) rotate(4.1666666667deg);
+}
+figure:nth-child(8) img {
+  transform: scale(0.6) rotate(6.9444444444deg);
+}
+figure:nth-child(9) img {
+  transform: scale(0.6) rotate(9.7222222222deg);
+}
+figure:nth-child(10) img {
+  transform: scale(0.6) rotate(12.5deg);
+}
+figure:nth-child(11) img {
+  transform: scale(0.6) rotate(15.277777777778deg);
+}
+figure:nth-child(12) img {
+  transform: scale(0.6) rotate(18.055555555556deg);
+}
+figure:nth-child(13) img {
+  transform: scale(0.6) rotate(20.833333333333deg);
+}
+figure:nth-child(14) img {
+  transform: scale(0.6) rotate(23.611111111111deg);
+}
+figure:nth-child(15) img {
+  transform: scale(0.6) rotate(26.388888888889deg);
+}
+figure:nth-child(16) img {
+  transform: scale(0.6) rotate(29.166666666667deg);
+}
+figure:nth-child(17) img {
+  transform: scale(0.6) rotate(31.944444444444deg);
+}
+figure:nth-child(18) img {
+  transform: scale(0.6) rotate(34.722222222222deg);
+}
+figure:nth-child(19) img {
+  transform: scale(0.6) rotate(9.7222222222deg);
+}
+figure:nth-child(20) img {
+  transform: scale(0.6) rotate(12.5deg);
+}
+figure:nth-child(21) img {
+  transform: scale(0.6) rotate(15.277777777778deg);
+}
+figure:nth-child(22) img {
+  transform: scale(0.6) rotate(18.055555555556deg);
+}
+figure:nth-child(23) img {
+  transform: scale(0.6) rotate(20.833333333333deg);
+}
+figure:nth-child(24) img {
+  transform: scale(0.6) rotate(23.611111111111deg);
+}
+figure:nth-child(25) img {
+  transform: scale(0.6) rotate(26.388888888889deg);
+}
+figure:nth-child(26) img {
+  transform: scale(0.6) rotate(29.166666666667deg);
+}
+figure:nth-child(27) img {
+  transform: scale(0.6) rotate(31.944444444444deg);
+}
+figure:nth-child(28) img {
+  transform: scale(0.6) rotate(34.722222222222deg);
+}
+figure:nth-child(29) img {
+  transform: scale(0.6) rotate(37.5deg);
+}
+figure:nth-child(30) img {
+  transform: scale(0.6) rotate(40.277777777778deg);
+}
+figure img {
+  width: 100vmin;
+  height: 100vmin;
+  border-radius: 3px;
+}
