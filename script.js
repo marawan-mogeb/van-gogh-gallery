@@ -19,5 +19,5 @@ doors.forEach((door, index) => {
 });
 
 window.onload = function() {
-  alert('Happy birthday ya 7abibti, I am the happiest person in the world because I have you. You are my heart, my soul and my life and I am very lucky to have you in my life, ktkotty\n \nLove you ya 8mr ❤️');
+  alert('By Marawan');
 };
